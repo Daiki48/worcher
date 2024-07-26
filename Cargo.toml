@@ -1,7 +1,16 @@
 [package]
 name = "worcher"
+description = "worcher is full-text search for static websites."
+authors = ["Daiki Nakashima <daiki48.engineer@gmail.com>"]
+keywords = ["worcher", "search", "full-text-search", "regex"]
+repository = "https://github.com/Daiki48/worcher"
+readme = "README.md"
+license = "MIT"
 version = "0.1.0"
 edition = "2021"
+
+[badges]
+maintenance = { status = "actively-developed" }
 
 [lib]
 crate-type = ["cdylib"]
